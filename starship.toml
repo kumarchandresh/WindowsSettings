@@ -1,0 +1,11 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# Don't truncation path to current directory except for repositories
+[directory]
+truncation_length = 0
+truncation_symbol = "…/"
